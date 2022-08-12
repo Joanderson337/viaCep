@@ -7,6 +7,7 @@ const inputLogradouro = document.getElementById('js-input-logradouro');
 const inputEstado = document.getElementById('js-input-estado');
 const inputCidade = document.getElementById('js-input-cidade');
 const inputDdd = document.getElementById('js-input-ddd');
+const inputIbge = document.getElementById('js-input-ibge');
 
 const areaDados = document.getElementById('js-dados');
 const msgErro = document.getElementById('js-error');
@@ -27,6 +28,7 @@ btnBuscarCep.addEventListener('click', () => {
       inputEstado.value = data.uf;
       inputCidade.value = data.localidade;
       inputDdd.value = data.ddd;
+      inputIbge.value = data.ibge;
 
       areaDados.style.display = "block";
       msgErro.style.display = 'none';
