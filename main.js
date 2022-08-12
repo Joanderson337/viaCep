@@ -13,32 +13,32 @@ const areaDados = document.getElementById('js-dados');
 const msgErro = document.getElementById('js-error');
 
 btnBuscarCep.addEventListener('click', () => {
-  if(inputCep.value !== "") {
-    
+  if (inputCep.value !== "") {
+
     axios({
       method: 'GET',
       url: `https://viacep.com.br/ws/${inputCep.value}/json/`
     })
-    .catch(() => alert('Digite um cep correto!'))
-    .then(response => {
-      let data = response.data;
-      inputBairro.value = data.bairro;
-      inputCepDado.value = data.cep;
-      inputLogradouro.value = data.logradouro;
-      inputEstado.value = data.uf;
-      inputCidade.value = data.localidade;
-      inputDdd.value = data.ddd;
-      inputIbge.value = data.ibge;
+      .catch(() => alert('Digite um cep correto!'))
+      .then(response => {
+        let data = response.data;
+        inputBairro.value = data.bairro;
+        inputCepDado.value = data.cep;
+        inputLogradouro.value = data.logradouro;
+        inputEstado.value = data.uf;
+        inputCidade.value = data.localidade;
+        inputDdd.value = data.ddd;
+        inputIbge.value = data.ibge;
 
-      areaDados.style.display = "block";
-      msgErro.style.display = 'none';
-    });
+        areaDados.style.display = "flex";
+        msgErro.style.display = 'none';
+      });
   } else {
     inputBairro.value = "";
     inputCepDado.value = "";
     inputLogradouro.value = "";
     inputEstado.value = "";
     areaDados.style.display = "none";
-    msgErro.style.display = 'block';
+    msgErro.style.display = 'flex';
   }
 })
