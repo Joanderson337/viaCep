@@ -16,6 +16,7 @@ btnBuscarCep.addEventListener('click', () => {
       method: 'GET',
       url: `https://viacep.com.br/ws/${inputCep.value}/json/`
     })
+    .catch(() => alert('Digite um cep correto!'))
     .then(response => {
       let data = response.data;
       inputBairro.value = data.bairro;
