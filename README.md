@@ -4,12 +4,11 @@
 
 Link do Projeto
 
-<a link href="https://lp-neon-joanderson337.vercel.app/" target="_blank">![Site](https://shields.io/badge/acessar-Site-green?&style=for-the-badge)</a>
+<a link href="https://via-cep-joanderson337.vercel.app/" target="_blank">![Site](https://shields.io/badge/acessar-Site-green?&style=for-the-badge)</a>
 
 
 ## Stack utilizada
-  <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /> <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" /> 
-<img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /> 
+  <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /> <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /> 
 <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
           
 
